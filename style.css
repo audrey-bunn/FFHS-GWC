@@ -1,12 +1,13 @@
 html {
   height: 100%;
   width: 100%;
+  background-color: #AFCAE0
 }
 
 .box {
     background-color: #ffffff;
     border-style: solid;
-    border-color: black;
+    border-color: #CDE0F0;
     border-width: 1px;
     align-items: center;
     text-align: center; 
@@ -19,6 +20,33 @@ html {
 .rowdiv {
     display: flex;
     align-items: center;
-    hight: 100px,
+    height: 50px;
+    margin: auto;
+    width: 50%
 }
 
+.key{
+    border-style: solid;
+    border-color: #CDE0F0;
+    border-width: 1px;
+    width: 30px;
+    margin: 1;
+    text-align: center;
+   
+}
+
+.difkey{
+    border-style: solid;
+    border-color: #CDE0F0;
+    border-width: 1px;
+    width: 50px;
+    margin: 1;
+    
+}
+
+.keyrow{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
