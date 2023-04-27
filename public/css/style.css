@@ -1,0 +1,23 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.box {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    align-items: center;
+    text-align: center; 
+    margin: 2px;
+    padding: 10px 0;
+    width:50px;
+    hight:50px;
+}
+
+.rowdiv {
+    display: flex;
+    align-items: center;
+    hight: 100px,
+}
